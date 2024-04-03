@@ -4,9 +4,9 @@ Implementations for resolving the Traveling Thief Problem (TTP), a challenging o
 aspects of the Traveling Salesman and Knapsack problem, are available in this repository.
 
 Implemented Algorithms:
-Random Search
-Greedy Algorithm
-Simulated Annealing (SA)
+Random Search,
+Greedy Algorithm,
+Simulated Annealing (SA),
 Evolutionary Algorithm (EA)
 
 
