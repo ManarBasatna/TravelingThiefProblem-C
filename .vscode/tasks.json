@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\src\\main.cpp",
+                "${workspaceFolder}\\src\\GeneticAlgo.cpp",
+                "${workspaceFolder}\\src\\Common.cpp",
+                "${workspaceFolder}\\src\\Greedy.cpp",
+                "${workspaceFolder}\\src\\RandomSearch.cpp",
+                "${workspaceFolder}\\src\\SA.cpp",
+                "-o",
+                "${workspaceFolder}\\src\\main.exe"
+            ],
+            "options": {
+                "cwd": "C:/msys64/mingw64/bin"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
